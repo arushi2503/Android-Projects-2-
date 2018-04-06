@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProfileActivity"
+    android:orientation="vertical">
+
+
+    <Button
+        android:id="@+id/work_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/WORK"
+        android:onClick="work_btn"/>
+
+    <Button
+        android:id="@+id/stock_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/stock"
+        android:onClick="stock_btn"/>
+
+    <Button
+        android:id="@+id/report_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/report"
+        android:onClick="report_btn"/>
+
+
+
+</LinearLayout>
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/floatingActionButton2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:layout_marginBottom="40dp"
+        android:layout_marginRight="20dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        app:srcCompat="@drawable/cast_ic_notification_small_icon" />
+
+</RelativeLayout>

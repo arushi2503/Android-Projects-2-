@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.admin.sqliteapp.MainActivity">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:hint="Id : "
+        android:id="@+id/editText1"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="Name : "
+        android:ems="10"
+        android:id="@+id/editText2"
+        android:layout_below="@+id/editText1"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="phone"
+        android:hint="Contact No. : "
+        android:textColor="@color/colorAccent"
+        android:ems="10"
+        android:id="@+id/editText3"
+        android:layout_below="@+id/editText2"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:textColor="@color/colorAccent"
+        android:ems="10"
+        android:hint="Email Id : "
+        android:id="@+id/editText4"
+        android:layout_below="@+id/editText3"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="Add"
+        android:id="@+id/button1"
+        android:layout_centerVertical="true"
+        android:layout_alignParentStart="true"
+        android:background="@drawable/btn_bgcolor"/>
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="View All"
+        android:id="@+id/button2"
+        android:layout_alignTop="@+id/button1"
+        android:layout_alignParentEnd="true"
+        android:background="@drawable/btn_bgcolor"/>
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="Update"
+        android:id="@+id/button3"
+        android:layout_below="@+id/button1"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="44dp"
+        android:background="@drawable/btn_bgcolor"/>
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="Delete"
+        android:id="@+id/button4"
+        android:layout_alignBottom="@+id/button3"
+        android:layout_alignParentEnd="true"
+        android:background="@drawable/btn_bgcolor"/>
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.admin.asynctaskdemo.ReadWebPageAsyncTask">
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start AsyncTask"
+        android:id="@+id/button"
+        android:layout_below="@+id/text"
+        android:onClick="onClick"
+        android:layout_toEndOf="@+id/text"
+        android:layout_marginTop="48dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start Thread handler"
+        android:id="@+id/button2"
+        android:layout_below="@+id/text"
+        android:onClick="onClickHandler"
+        android:layout_toEndOf="@+id/text"
+        android:layout_marginTop="48dp" />
+
+</LinearLayout>
+</ScrollView>

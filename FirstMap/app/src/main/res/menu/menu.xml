@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id = "@+id/mapTypeNone"
+    android:title="@string/map_Type_None">
+    </item>
+
+    <item android:id = "@+id/mapTypeNormal"
+        android:title="@string/map_Type_Normal">
+    </item>
+
+    <item android:id = "@+id/mapTypeterrain"
+        android:title="@string/map_Type_Terrain">
+    </item>
+
+    <item android:id = "@+id/mapTypeSatelite"
+        android:title="@string/map_Type_Satellite">
+    </item>
+
+    <item android:id = "@+id/mapTypeHybrid"
+        android:title="@string/map_Type_Hybrid">
+    </item>
+</menu>

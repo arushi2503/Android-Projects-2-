@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".LoginActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        android:text="@string/Login"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        android:background="@color/colorPrimary"/>
+
+    <EditText
+        android:id="@+id/email_id_edit_text"
+        android:layout_width="match_parent"
+        android:layout_margin="20dp"
+        android:hint="@string/email_hint"
+        android:textSize="18sp"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/password_edit_text"
+        android:layout_width="match_parent"
+        android:layout_margin="20dp"
+        android:textSize="18sp"
+        android:hint="@string/password"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+    <Button
+        android:id="@+id/signup_button"
+        android:layout_width="match_parent"
+        android:layout_margin="20dp"
+        android:textSize="18sp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:text="@string/sign_up"
+        android:onClick="sign_up"
+        android:background="@color/colorAccent"/>
+        <Button
+            android:id="@+id/submit_button"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="20dp"
+            android:textSize="18sp"
+            android:layout_height="wrap_content"
+
+            android:text="@string/submit"
+            android:onClick="sign_in"
+            android:background="@color/colorAccent"/>
+    </LinearLayout>
+
+</LinearLayout>

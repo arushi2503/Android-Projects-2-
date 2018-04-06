@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_addContact"
+            android:icon="@drawable/ic_person_add_black_24dp"
+            android:title="Add Contact" />
+        <item
+            android:id="@+id/nav_showContacts"
+            android:icon="@drawable/ic_contacts_black_24dp"
+            android:title="Show Contacts" />
+        <item
+            android:id="@+id/nav_yourlocation"
+            android:icon="@drawable/ic_person_pin_circle_black_24dp"
+            android:title="Your Place" />
+        <item
+            android:id="@+id/nav_drafts"
+            android:icon="@drawable/ic_drafts_black_24dp"
+            android:title="Drafts" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_photo_album_black_24dp"
+            android:title="Gallery" />
+    </group>
+
+    <item android:title="Manage">
+        <menu xmlns:android="http://schemas.android.com/apk/res/android" >
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_trash"
+                    android:icon="@drawable/ic_delete_black_24dp"
+                    android:title="Trash" />
+                <item
+                    android:id="@+id/nav_spam"
+                    android:icon="@drawable/ic_report_black_24dp"
+                    android:title="Spam" />
+            </group>
+        </menu>
+    </item>
+    <group><item android:title=" "></item></group>
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/ic_settings_black_24dp"
+            android:title="Settings" />
+
+    </group>
+</menu>
